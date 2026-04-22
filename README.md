@@ -26,7 +26,14 @@ The project is built using Vue 2 and integrates Bootstrap, BootstrapVue, and the
 
 Follow the steps below to install dependencies, run the application, and build it for production.
 
-1. Install the required npm packages:
+1. Clone the repository and navigate to the project directory:
+
+   ```bash
+   git clone https://github.com/SyncfusionExamples/how-to-show-bootstrap-tooltip-while-hovering-on-vue-datagrid-cells.git
+   cd how-to-show-bootstrap-tooltip-while-hovering-on-vue-datagrid-cells
+   ```
+
+2. Install the required npm packages:
 
    ```bash
    npm install
@@ -34,7 +41,7 @@ Follow the steps below to install dependencies, run the application, and build i
 
    This installs Vue, Bootstrap, BootstrapVue, and the Syncfusion Vue Grid packages required for the application.
 
-2. Run the application in development mode:
+3. Run the application in development mode:
 
    ```bash
    npm run serve
@@ -42,7 +49,7 @@ Follow the steps below to install dependencies, run the application, and build i
 
    Once the development server starts, open the displayed local URL in a browser. Hover over the grid cell values to see Bootstrap tooltips rendered inside the DataGrid.
 
-3. Build the application for production:
+4. Build the application for production:
 
    ```bash
    npm run build
